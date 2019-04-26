@@ -1,0 +1,132 @@
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #00ad41;
+}
+
+.logout {
+  color: red;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.clor {
+  color: red;
+}
+
+body {
+  font-family: 'Raleway';
+}
+
+.nOrder {
+  margin-top: 1em;
+}
+
+.form-row {
+  margin-top: 1em;
+}
+
+label {
+  font-weight: 600;
+}
+
+.reset {
+  text-align: center;
+}
+
+.make {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.makeor {
+  border-radius: 15px;
+  width: 50%;
+}
+
+.resetor {
+  border-radius: 15px;
+  width: 50%;
+}
+
+.out {
+  width: 95px;
+  border-radius: 10px;
+  font-size: 12pt;
+}
+
+.banner {
+  height: 400px;
+  background-image: url(../../assets/img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 450px) {
+  .banner {
+    height: 200px;
+  }
+}
+
+.reset {
+  margin-bottom: 2em;
+}
+
+.title {
+  background-color: #00ad41;
+  text-align: center;
+  color: white;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+.his {
+  margin-top: 1em;
+}
+
+.box p {
+  margin-bottom: 0;
+}
+
+.box {
+  padding-left: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  border: 1px solid rgb(0,173,65);
+  border-radius: 15px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.boxes {
+}
+
+.box h3 {
+  font-weight: bold;
+}
+
+.log {
+  text-align: center;
+}
+
+.logbtn {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.imgg {
+  text-align: center;
+}
+
+.imgg {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 17em;
+  border: 1px solid rgb(0,173,65);
+  border-radius: 15px;
+}
+
+.inlog {
+  border-radius: 15px;
+}
+
