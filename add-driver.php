@@ -21,49 +21,49 @@
             <div class="form-row">
                 <div class="col-md-12">
                     <label>Nama Lengkap</label>
-                    <input class="form-control" type="text" required="" placeholder="Nama Lengkap">
+                    <input class="form-control" type="text" name="nama" required="" placeholder="Nama Lengkap">
                 </div>
             </div>
             <div class="form-row">
                 <div class="col-md-12">
                     <label>Email</label>
-                    <input class="form-control" type="email" required="" placeholder="Alamat Email">
+                    <input class="form-control" type="email" name="email" required="" placeholder="Alamat Email">
                 </div>
             </div>
             <div class="form-row">
                 <div class="col-md-12">
                     <label>Nomor Telepon</label>
-                    <input class="form-control" type="tel" required="" placeholder="Nomor Telepon" minlength="11" maxlength="13">
+                    <input class="form-control" type="tel"  name="notelp" required="" placeholder="Nomor Telepon" minlength="11" maxlength="13">
                 </div>
             </div>
             <div class="form-row">
                 <div class="col-md-12">
                     <label>Alamat Domisili</label>
-                    <input class="form-control" type="text" required="" placeholder="Alamat Domisili">
+                    <input class="form-control" type="text" name="domisili" required="" placeholder="Alamat Domisili">
                 </div>
             </div>
             <div class="form-row">
                 <div class="col-md-12">
                     <label>Plat Nomor Mobil</label>
-                    <input class="form-control" type="text" required="" placeholder="Plat Nomor Mobil">
+                    <input class="form-control" type="text"  name="plate" required="" placeholder="Plat Nomor Mobil">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-12">
+                    <label>Foto</label>
+                    <input class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-xl-center" name="pic" type="file" required="" accept="image/*">
                 </div>
             </div>
             <div class="form-row">
                 <div class="col-md-12">
                     <label>Foto KTP</label>
-                    <input class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-xl-center" type="file" required="" accept="image/*">
-                    <div class="progress">
-                        <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">50%</div>
-                    </div>
+                    <input class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-xl-center" name="ktp" type="file" required="" accept="image/*">
                 </div>
             </div>
             <div class="form-row">
                 <div class="col-md-12">
                     <label>Foto SIM</label>
-                    <input class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-xl-center" type="file" required="">
-                    <div class="progress">
-                        <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">50%</div>
-                    </div>
+                    <input class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-xl-center" name="sim" type="file" required="" accept="image/*"> 
                 </div>
             </div>
             <div class="form-row make">
