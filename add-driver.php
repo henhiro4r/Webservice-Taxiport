@@ -12,6 +12,10 @@
 </head>
 
 <body>
+    <?php 
+    if (!isset($_SESSION['admin'])) {
+        echo "<meta http-equiv='refresh' content='0 url=login.php'>";
+    } elseif (isset($_SESSION['admin'])) { ?>
     <?php include('inc/nav.php'); ?>
     <div class="container-fluid title">
         <h1>NEW DRIVER</h1>
@@ -81,6 +85,7 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+    <?php } ?>
 </body>
 
 </html>
