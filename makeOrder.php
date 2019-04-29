@@ -65,7 +65,7 @@ if ($loc->num_rows == 1) {
 				</div>
 				<div class="form-row">
 					<div class="col-md-12">
-						<h3 class="btn-danger">Rp <?=$location['harga']?></h3>
+						<h3 class="btn-danger text-center">Rp <?=$location['harga']?></h3>
 					</div>
 				</div>
 				<div class="form-row make">
