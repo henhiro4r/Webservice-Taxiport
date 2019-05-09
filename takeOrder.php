@@ -10,14 +10,9 @@ $idDriver = $fetch['id_driver'];
 
 $update = $db->query("UPDATE taxi_order SET taken_by = $idDriver, taken = '1' WHERE id_order = $idOrder");
 if ($update) {
-	// $update2 = $db->query("UPDATE drivers SET check_in = '0' WHERE email = '$email'");
-	// if ($update2) {
-		toast(1);
-	// }else{
-		// toast(2);	
-	// }
+	toast(1);
 }else{
-	toast(2);
+	toast(0);
 }
 
 function toast($message){
